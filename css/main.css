@@ -1,0 +1,62 @@
+/*Global Elements*/
+
+div,
+section,
+header,
+footer,
+nav, 
+input, 
+label, 
+select,
+textarea, 
+p  {
+    box-sizing: border-box;
+}
+
+label, input, textarea, select {
+    width: 100%;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin: 0 0 0 10px;
+    float: left;
+}
+
+/*Structure*/
+
+.full_wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+@media all and (min-width: 1280px) {
+    .full_wrap {
+        padding: 0;    
+    }
+}
+
+header h1 {
+    float: left;
+}
+
+#main_nav {
+    padding-top: 20px;
+    float: left;
+}
+
+#work_nav {
+    float: none;
+    clear: both;
+}
